@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/amal-jyothi-college-of-engineering-kottayam-24141",
-  "https://www.shiksha.com/college/ajeenkya-dy-patil-university-powered-by-sunstone-lohegaon-pune-202621",
-  "https://www.shiksha.com/college/vsb-engineering-college-karur-4345",
-  "https://www.shiksha.com/college/iiit-agartala-indian-institute-of-information-technology-63989",
-  "https://www.shiksha.com/college/drs-kiran-and-pallavi-patel-global-university-vadodara-49456",
-  "https://www.shiksha.com/university/veer-bahadur-singh-purvanchal-university-jaunpur-23083",
-  "https://www.shiksha.com/college/pragati-engineering-college-east-godavari-46588",
-  "https://www.shiksha.com/college/sarvajanik-college-of-engineering-and-technology-surat-59081",
-  "https://www.shiksha.com/college/anjuman-i-islam-s-kalsekar-technical-campus-navi-mumbai-58849",
-  "https://www.shiksha.com/university/alard-university-pune-32549",
-  "https://www.shiksha.com/university/the-icfai-university-jaipur-38083",
-  "https://www.shiksha.com/college/swami-sarvanand-giri-regional-centre-panjab-university-hoshiarpur-26558",
-  "https://www.shiksha.com/college/kdk-college-of-engineering-nagpur-25103",
-  "https://www.shiksha.com/college/university-college-of-engineering-bharathidasan-institute-of-technology-tiruchirappalli-anna-university-61449",
-  "https://www.shiksha.com/college/shri-shankaracharya-technical-campus-bhilai-56387",
-  "https://www.shiksha.com/college/school-of-biotechnology-and-bioinformatics-d-y-patil-university-navi-mumbai-31420",
-  "https://www.shiksha.com/college/g-h-patel-college-of-engineering-and-technology-cvm-university-vallabh-vidyanagar-25256",
-  "https://www.shiksha.com/college/nalanda-college-of-engineering-66363",
-  "https://www.shiksha.com/college/g-pulla-reddy-engineering-college-kurnool-25390",
-  "https://www.shiksha.com/college/manet-maharashtra-academy-of-naval-education-and-training-mit-adt-university-loni-kalbhor-pune-21633",
+  "https://www.shiksha.com/college/sanketika-vidya-parishad-engineering-college-visakhapatnam-42781",
+  "https://www.shiksha.com/college/vemu-institute-of-technology-chittoor-43106",
+  "https://www.shiksha.com/college/rao-birender-singh-state-institute-of-engineering-and-technology-rewari-61463",
+  "https://www.shiksha.com/college/institute-of-technology-management-aligarh-itm-aligarh-37435",
+  "https://www.shiksha.com/college/srit-sri-ramakrishna-institute-of-technology-coimbatore-42551",
+  "https://www.shiksha.com/college/dr-rajendra-gode-institute-of-technology-and-research-amravati-59451",
+  "https://www.shiksha.com/college/birla-institute-of-applied-sciences-nainital-19636",
+  "https://www.shiksha.com/college/gkm-college-of-engineering-and-technology-gkmcet-tambaram-sanatorium-chennai-20050",
+  "https://www.shiksha.com/college/pct-park-college-of-technology-coimbatore-47385",
+  "https://www.shiksha.com/college/government-engineering-college-west-champaran-bihar-other-146463",
+  "https://www.shiksha.com/university/alakh-prakash-goyal-shimla-university-34819",
+  "https://www.shiksha.com/college/jaya-prakash-narayan-college-of-engineering-jpnce-telangana-other-4050",
+  "https://www.shiksha.com/college/college-of-engineering-perumon-kollam-60574",
+  "https://www.shiksha.com/college/jyothishmathi-institute-of-technology-and-science-karimnagar-20401",
+  "https://www.shiksha.com/college/university-institute-of-technology-shahdol-constituent-college-of-rgpv-60405",
+  "https://www.shiksha.com/college/bhai-gurdas-institute-of-engineering-and-technology-sangrur-29003",
+  "https://www.shiksha.com/college/scholars-institute-of-technology-and-management-guwahati-42038",
+  "https://www.shiksha.com/college/uttar-banga-krishi-viswavidyalaya-coochbehar-61393",
+  "https://www.shiksha.com/college/janatha-education-trust-s-vivekananda-institute-of-technology-vkit-bangalore-51817",
+  "https://www.shiksha.com/college/dr-b-r-ambedkar-institute-of-technology-port-blair-65161",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =501
+    c_count =1001
 
     try:
         for base_url in BASE_URL:
