@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/ramdeobaba-university-nagpur-21172",
-  "https://www.shiksha.com/university/siddhartha-academy-of-higher-education-deemed-to-be-university-formerly-vr-siddhartha-engineering-college-vijayawada-21486",
-  "https://www.shiksha.com/university/cgc-university-mohali-47811",
-  "https://www.shiksha.com/college/dayananda-sagar-college-of-engineering-banashankari-bangalore-28374",
-  "https://www.shiksha.com/university/harcourt-butler-technical-university-kanpur-5040",
-  "https://www.shiksha.com/college/jss-academy-of-technical-education-jss-mahavidyapeetha-noida-468",
-  "https://www.shiksha.com/college/kalaignarkarunanidhi-institute-of-technology-kit-coimbatore-48105",
-  "https://www.shiksha.com/college/birsa-institute-of-technology-sindri-dhanbad-36789",
-  "https://www.shiksha.com/university/vels-institute-of-science-technology-and-advanced-studies-vistas-chennai-32583",
-  "https://www.shiksha.com/university/indira-gandhi-delhi-technical-university-for-women-igdtuw-47485",
-  "https://www.shiksha.com/university/gjust-guru-jambheshwar-university-of-science-and-technology-hisar-3273",
-  "https://www.shiksha.com/college/karpagam-college-of-engineering-coimbatore-23772",
-  "https://www.shiksha.com/university/giet-university-gunupur-68005",
-  "https://www.shiksha.com/university/visvesvaraya-technological-university-belgaum-51576",
-  "https://www.shiksha.com/college/iiit-guwahati-indian-institute-of-information-technology-assam-39384",
-  "https://www.shiksha.com/university/amity-university-ranchi-48838",
-  "https://www.shiksha.com/university/jss-science-and-technology-university-mysore-64589",
-  "https://www.shiksha.com/university/dr-shyama-prasad-mukherjee-international-institute-of-information-technology-naya-raipur-59075",
-  "https://www.shiksha.com/college/gita-gandhi-institute-for-technological-advancement-bhubaneswar-23303",
-  "https://www.shiksha.com/university/adypu-ajeenkya-dy-patil-university-pune-52118",
+  "https://www.shiksha.com/college/amal-jyothi-college-of-engineering-kottayam-24141",
+  "https://www.shiksha.com/college/ajeenkya-dy-patil-university-powered-by-sunstone-lohegaon-pune-202621",
+  "https://www.shiksha.com/college/vsb-engineering-college-karur-4345",
+  "https://www.shiksha.com/college/iiit-agartala-indian-institute-of-information-technology-63989",
+  "https://www.shiksha.com/college/drs-kiran-and-pallavi-patel-global-university-vadodara-49456",
+  "https://www.shiksha.com/university/veer-bahadur-singh-purvanchal-university-jaunpur-23083",
+  "https://www.shiksha.com/college/pragati-engineering-college-east-godavari-46588",
+  "https://www.shiksha.com/college/sarvajanik-college-of-engineering-and-technology-surat-59081",
+  "https://www.shiksha.com/college/anjuman-i-islam-s-kalsekar-technical-campus-navi-mumbai-58849",
+  "https://www.shiksha.com/university/alard-university-pune-32549",
+  "https://www.shiksha.com/university/the-icfai-university-jaipur-38083",
+  "https://www.shiksha.com/college/swami-sarvanand-giri-regional-centre-panjab-university-hoshiarpur-26558",
+  "https://www.shiksha.com/college/kdk-college-of-engineering-nagpur-25103",
+  "https://www.shiksha.com/college/university-college-of-engineering-bharathidasan-institute-of-technology-tiruchirappalli-anna-university-61449",
+  "https://www.shiksha.com/college/shri-shankaracharya-technical-campus-bhilai-56387",
+  "https://www.shiksha.com/college/school-of-biotechnology-and-bioinformatics-d-y-patil-university-navi-mumbai-31420",
+  "https://www.shiksha.com/college/g-h-patel-college-of-engineering-and-technology-cvm-university-vallabh-vidyanagar-25256",
+  "https://www.shiksha.com/college/nalanda-college-of-engineering-66363",
+  "https://www.shiksha.com/college/g-pulla-reddy-engineering-college-kurnool-25390",
+  "https://www.shiksha.com/college/manet-maharashtra-academy-of-naval-education-and-training-mit-adt-university-loni-kalbhor-pune-21633",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =81
+    c_count =501
 
     try:
         for base_url in BASE_URL:
