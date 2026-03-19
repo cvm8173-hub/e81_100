@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sanketika-vidya-parishad-engineering-college-visakhapatnam-42781",
-  "https://www.shiksha.com/college/vemu-institute-of-technology-chittoor-43106",
-  "https://www.shiksha.com/college/rao-birender-singh-state-institute-of-engineering-and-technology-rewari-61463",
-  "https://www.shiksha.com/college/institute-of-technology-management-aligarh-itm-aligarh-37435",
-  "https://www.shiksha.com/college/srit-sri-ramakrishna-institute-of-technology-coimbatore-42551",
-  "https://www.shiksha.com/college/dr-rajendra-gode-institute-of-technology-and-research-amravati-59451",
-  "https://www.shiksha.com/college/birla-institute-of-applied-sciences-nainital-19636",
-  "https://www.shiksha.com/college/gkm-college-of-engineering-and-technology-gkmcet-tambaram-sanatorium-chennai-20050",
-  "https://www.shiksha.com/college/pct-park-college-of-technology-coimbatore-47385",
-  "https://www.shiksha.com/college/government-engineering-college-west-champaran-bihar-other-146463",
-  "https://www.shiksha.com/university/alakh-prakash-goyal-shimla-university-34819",
-  "https://www.shiksha.com/college/jaya-prakash-narayan-college-of-engineering-jpnce-telangana-other-4050",
-  "https://www.shiksha.com/college/college-of-engineering-perumon-kollam-60574",
-  "https://www.shiksha.com/college/jyothishmathi-institute-of-technology-and-science-karimnagar-20401",
-  "https://www.shiksha.com/college/university-institute-of-technology-shahdol-constituent-college-of-rgpv-60405",
-  "https://www.shiksha.com/college/bhai-gurdas-institute-of-engineering-and-technology-sangrur-29003",
-  "https://www.shiksha.com/college/scholars-institute-of-technology-and-management-guwahati-42038",
-  "https://www.shiksha.com/college/uttar-banga-krishi-viswavidyalaya-coochbehar-61393",
-  "https://www.shiksha.com/college/janatha-education-trust-s-vivekananda-institute-of-technology-vkit-bangalore-51817",
-  "https://www.shiksha.com/college/dr-b-r-ambedkar-institute-of-technology-port-blair-65161",
+  "https://www.shiksha.com/college/bengal-college-of-engineering-durgapur-41214",
+  "https://www.shiksha.com/college/college-of-dairy-science-and-technology-mannuthy-kerala-veterinary-and-animal-sciences-university-thrissur-52866",
+  "https://www.shiksha.com/college/krishnasamy-college-of-engineering-and-technology-cuddalore-61465",
+  "https://www.shiksha.com/college/ramanand-institute-of-pharmacy-and-management-haridwar-66419",
+  "https://www.shiksha.com/college/bce-bahubali-college-of-engineering-hassan-8683",
+  "https://www.shiksha.com/college/indira-gandhi-group-of-institutions-ernakulum-215017",
+  "https://www.shiksha.com/college/mirai-school-of-technology-gurgaon-244182",
+  "https://www.shiksha.com/college/kamala-institute-of-technology-and-science-karimnagar-2670",
+  "https://www.shiksha.com/college/college-of-agricultural-engineering-and-technology-godhra-anand-agricultural-university-58279",
+  "https://www.shiksha.com/college/bits-group-of-institutions-bits-bhiwani-haryana-other-3991",
+  "https://www.shiksha.com/college/padmashri-dr-v-b-kolte-college-of-engineering-malkapur-maharashtra-other-59501",
+  "https://www.shiksha.com/college/siddhivinayak-technical-campus-maharashtra-other-59695",
+  "https://www.shiksha.com/college/k-s-k-college-of-engineering-and-technology-thanjavur-61479",
+  "https://www.shiksha.com/college/college-of-dairy-science-and-food-technology-chhattisgarh-kamdhenu-vishwavidyalaya-raipur-64133",
+  "https://www.shiksha.com/college/government-engineering-college-kushal-nagar-karnataka-other-59363",
+  "https://www.shiksha.com/college/government-engineering-college-banka-66621",
+  "https://www.shiksha.com/college/shri-phanishwar-nath-renu-engineering-college-araria-bihar-other-146497",
+  "https://www.shiksha.com/college/cipet-institute-of-petrochemicals-technology-ipt-bihta-patna-228173",
+  "https://www.shiksha.com/college/iet-group-of-institutions-ropar-28995",
+  "https://www.shiksha.com/college/government-college-of-engineering-bodinayakkanur-theni-61771",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1001
+    c_count =1381
 
     try:
         for base_url in BASE_URL:
