@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/delhi-global-institute-of-technology-jhajjar-65377",
-  "https://www.shiksha.com/college/sardar-raja-college-of-engineering-tirunelveli-21073",
-  "https://www.shiksha.com/college/bhagwant-institute-of-technology-maharashtra-other-59415",
-  "https://www.shiksha.com/college/sri-venkateswara-institute-of-technology-anantapur-60929",
-  "https://www.shiksha.com/college/dr-vrk-women-s-college-of-engineering-and-technology-ranga-reddy-61383",
-  "https://www.shiksha.com/college/gandhi-academy-of-technology-and-engineering-ganjam-61395",
-  "https://www.shiksha.com/college/doaba-group-of-colleges-nawanshahr-campus-nawanshahar-66209",
-  "https://www.shiksha.com/college/institute-of-engineering-and-technology-university-of-calicut-malappuram-210247",
-  "https://www.shiksha.com/college/srinivas-group-of-colleges-mangalore-203",
-  "https://www.shiksha.com/college/hardayal-technical-campus-mathura-43337",
-  "https://www.shiksha.com/college/icri-sam-global-university-bhopal-145691",
-  "https://www.shiksha.com/college/rathinam-group-of-institution-powered-by-sunstone-coimbatore-153473",
-  "https://www.shiksha.com/college/guru-nanak-institute-of-technology-ambala-195315",
-  "https://www.shiksha.com/college/jcet-jaya-college-of-engineering-and-technology-poonamallee-chennai-53754",
-  "https://www.shiksha.com/college/swaminarayan-college-of-engineering-and-technology-kalol-gandhinagar-66829",
-  "https://www.shiksha.com/college/kreeda-maharshi-meghanath-nageshkar-sharirik-shikshanshastra-mahavidyalaya-kolhapur-113805",
-  "https://www.shiksha.com/college/institute-of-chemical-technology-marathwada-campus-jalna-208897",
-  "https://www.shiksha.com/college/djr-institute-of-engineering-and-technology-djriet-vijayawada-43178",
-  "https://www.shiksha.com/college/christhu-jyothi-institute-of-technology-and-science-warangal-46500",
-  "https://www.shiksha.com/college/universal-college-of-engineering-and-technology-ucet-gandhinagar-49389",
+  "https://www.shiksha.com/college/sreekavitha-engineering-college-khammam-22973",
+  "https://www.shiksha.com/college/rishiraj-institute-of-technology-rit-indore-24581",
+  "https://www.shiksha.com/college/saroj-educational-group-lajpat-nagar-delhi-35001",
+  "https://www.shiksha.com/college/james-college-of-engineering-and-technology-kanyakumari-42764",
+  "https://www.shiksha.com/college/gian-jyoti-group-of-institutions-patiala-47454",
+  "https://www.shiksha.com/college/shri-j-m-sabva-institute-of-engineering-and-technology-bhavnagar-60191",
+  "https://www.shiksha.com/college/laxmi-bai-sahuji-institute-of-engineering-and-technology-jabalpur-66777",
+  "https://www.shiksha.com/college/bangalore-group-of-institutions-kodathi-101343",
+  "https://www.shiksha.com/college/vishveshwarya-technical-campus-faculty-of-diploma-engineering-sangli-147557",
+  "https://www.shiksha.com/college/visvesvaraya-college-of-engineering-technology-hyderabad-194161",
+  "https://www.shiksha.com/college/mkd-institute-of-technology-maharashtra-other-228545",
+  "https://www.shiksha.com/college/sri-satyanarayana-engineering-college-ssnec-andhra-pradesh-other-2641",
+  "https://www.shiksha.com/college/daita-madhusudana-sastry-sri-venkateswara-hindu-college-of-engineering-krishna-19422",
+  "https://www.shiksha.com/college/kurinji-college-of-engineering-and-technology-tiruchirappalli-22738",
+  "https://www.shiksha.com/college/jei-mathaajee-college-of-engineering-jei-mce-kanchipuram-43061",
+  "https://www.shiksha.com/college/baba-kuma-singh-ji-enggineering-college-amritsar-59201",
+  "https://www.shiksha.com/college/knowledge-institute-of-technology-and-engineering-anand-60223",
+  "https://www.shiksha.com/college/srinivasa-inst-of-technology-science-kadapa-61013",
+  "https://www.shiksha.com/college/mahendra-institute-of-engineering-and-technology-namakkal-61489",
+  "https://www.shiksha.com/college/mahath-amma-institute-of-engineering-and-technology-tamil-nadu-other-61659",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1801
+    c_count =2221
 
     try:
         for base_url in BASE_URL:
