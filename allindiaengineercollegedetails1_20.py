@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sreekavitha-engineering-college-khammam-22973",
-  "https://www.shiksha.com/college/rishiraj-institute-of-technology-rit-indore-24581",
-  "https://www.shiksha.com/college/saroj-educational-group-lajpat-nagar-delhi-35001",
-  "https://www.shiksha.com/college/james-college-of-engineering-and-technology-kanyakumari-42764",
-  "https://www.shiksha.com/college/gian-jyoti-group-of-institutions-patiala-47454",
-  "https://www.shiksha.com/college/shri-j-m-sabva-institute-of-engineering-and-technology-bhavnagar-60191",
-  "https://www.shiksha.com/college/laxmi-bai-sahuji-institute-of-engineering-and-technology-jabalpur-66777",
-  "https://www.shiksha.com/college/bangalore-group-of-institutions-kodathi-101343",
-  "https://www.shiksha.com/college/vishveshwarya-technical-campus-faculty-of-diploma-engineering-sangli-147557",
-  "https://www.shiksha.com/college/visvesvaraya-college-of-engineering-technology-hyderabad-194161",
-  "https://www.shiksha.com/college/mkd-institute-of-technology-maharashtra-other-228545",
-  "https://www.shiksha.com/college/sri-satyanarayana-engineering-college-ssnec-andhra-pradesh-other-2641",
-  "https://www.shiksha.com/college/daita-madhusudana-sastry-sri-venkateswara-hindu-college-of-engineering-krishna-19422",
-  "https://www.shiksha.com/college/kurinji-college-of-engineering-and-technology-tiruchirappalli-22738",
-  "https://www.shiksha.com/college/jei-mathaajee-college-of-engineering-jei-mce-kanchipuram-43061",
-  "https://www.shiksha.com/college/baba-kuma-singh-ji-enggineering-college-amritsar-59201",
-  "https://www.shiksha.com/college/knowledge-institute-of-technology-and-engineering-anand-60223",
-  "https://www.shiksha.com/college/srinivasa-inst-of-technology-science-kadapa-61013",
-  "https://www.shiksha.com/college/mahendra-institute-of-engineering-and-technology-namakkal-61489",
-  "https://www.shiksha.com/college/mahath-amma-institute-of-engineering-and-technology-tamil-nadu-other-61659",
+  "https://www.shiksha.com/college/sanjivani-institute-of-pharmacy-bilaspur-207551",
+  "https://www.shiksha.com/college/sri-pragathi-college-of-pharmacy-bangalore-207949",
+  "https://www.shiksha.com/college/dr-ambedkar-institute-of-pharmaceutical-science-rourkela-208115",
+  "https://www.shiksha.com/college/kurma-sanskriti-institute-of-pharmaceutical-science-jehanabad-236330",
+  "https://www.shiksha.com/college/yuvraj-college-of-pharmacy-kaithal-236482",
+  "https://www.shiksha.com/college/lakeside-college-of-pharmacy-bangalore-236552",
+  "https://www.shiksha.com/college/csu-college-of-pharmacy-rewa-236586",
+  "https://www.shiksha.com/college/ganga-college-of-pharmacy-bathinda-236846",
+  "https://www.shiksha.com/college/dr-r-k-singh-pharmacy-college-alwar-236866",
+  "https://www.shiksha.com/college/srcc-children-s-hospita-mumbai-240580",
+  "https://www.shiksha.com/college/apollo-hospitals-ahmedabad-240756",
+  "https://www.shiksha.com/college/krishna-institute-of-medical-sciences-rajahmundry-243700",
+  "https://www.shiksha.com/college/dr-vithalrao-vikhe-patil-foundation-s-college-of-physiotherapy-ahmednagar-245526",
+  "https://www.shiksha.com/college/cliniminds-academy-for-clinical-research-training-management-bangalore-27999",
+  "https://www.shiksha.com/college/department-of-music-csjm-university-kanpur-51684",
+  "https://www.shiksha.com/college/jawaharlal-nehru-medical-college-sawangi-wardha-102525",
+  "https://www.shiksha.com/college/i-b-n-e-seena-pharmacy-college-hardoi-59931",
+  "https://www.shiksha.com/college/dr-vandanatai-j-dhone-gramin-ayurved-college-akola-68183",
+  "https://www.shiksha.com/college/parshuram-verma-memorial-college-of-pharmacy-faizabad-181617",
+  "https://www.shiksha.com/college/rdd-pharma-azamgarh-181631",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2221
+    c_count =3541
 
     try:
         for base_url in BASE_URL:
