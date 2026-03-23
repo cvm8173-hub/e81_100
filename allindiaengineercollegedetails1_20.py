@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sanjivani-institute-of-pharmacy-bilaspur-207551",
-  "https://www.shiksha.com/college/sri-pragathi-college-of-pharmacy-bangalore-207949",
-  "https://www.shiksha.com/college/dr-ambedkar-institute-of-pharmaceutical-science-rourkela-208115",
-  "https://www.shiksha.com/college/kurma-sanskriti-institute-of-pharmaceutical-science-jehanabad-236330",
-  "https://www.shiksha.com/college/yuvraj-college-of-pharmacy-kaithal-236482",
-  "https://www.shiksha.com/college/lakeside-college-of-pharmacy-bangalore-236552",
-  "https://www.shiksha.com/college/csu-college-of-pharmacy-rewa-236586",
-  "https://www.shiksha.com/college/ganga-college-of-pharmacy-bathinda-236846",
-  "https://www.shiksha.com/college/dr-r-k-singh-pharmacy-college-alwar-236866",
-  "https://www.shiksha.com/college/srcc-children-s-hospita-mumbai-240580",
-  "https://www.shiksha.com/college/apollo-hospitals-ahmedabad-240756",
-  "https://www.shiksha.com/college/krishna-institute-of-medical-sciences-rajahmundry-243700",
-  "https://www.shiksha.com/college/dr-vithalrao-vikhe-patil-foundation-s-college-of-physiotherapy-ahmednagar-245526",
-  "https://www.shiksha.com/college/cliniminds-academy-for-clinical-research-training-management-bangalore-27999",
-  "https://www.shiksha.com/college/department-of-music-csjm-university-kanpur-51684",
-  "https://www.shiksha.com/college/jawaharlal-nehru-medical-college-sawangi-wardha-102525",
-  "https://www.shiksha.com/college/i-b-n-e-seena-pharmacy-college-hardoi-59931",
-  "https://www.shiksha.com/college/dr-vandanatai-j-dhone-gramin-ayurved-college-akola-68183",
-  "https://www.shiksha.com/college/parshuram-verma-memorial-college-of-pharmacy-faizabad-181617",
-  "https://www.shiksha.com/college/rdd-pharma-azamgarh-181631",
+  "https://www.shiksha.com/college/sanjeevan-medical-foundation-ent-post-graduate-training-institute-maharashtra-other-69897",
+  "https://www.shiksha.com/college/r-b-s-institute-of-education-madhya-pradesh-other-74673",
+  "https://www.shiksha.com/college/shanti-tara-college-sangrur-75847",
+  "https://www.shiksha.com/college/sushrut-ayurved-nursing-training-centre-rajasthan-other-87083",
+  "https://www.shiksha.com/college/krushna-sahyogi-tantra-shikshan-sanstha-s-chatrapati-shivaji-college-of-pharmacy-maharashtra-other-88821",
+  "https://www.shiksha.com/college/sbs-college-of-pharmacy-barnala-88999",
+  "https://www.shiksha.com/college/vaijapur-matoshree-institute-of-pharmacy-aurangabad-89039",
+  "https://www.shiksha.com/college/shri-chhatrapati-shahu-maharaj-shikshan-sansthas-institute-of-pharmacy-yavatmal-89221",
+  "https://www.shiksha.com/college/jhunhjunwala-pharmacy-college-faizabad-181615",
+  "https://www.shiksha.com/college/baba-baijnath-college-of-pharmacy-azamgarh-181659",
+  "https://www.shiksha.com/college/swaminath-mahavidyalaya-d-pharm-uttar-pradesh-other-181675",
+  "https://www.shiksha.com/college/dr-ak-pandey-college-of-pharmacy-uttar-pradesh-other-181681",
+  "https://www.shiksha.com/college/atal-pharmacy-college-firozabad-181767",
+  "https://www.shiksha.com/college/surya-pal-institute-of-pharmacy-pratapgarh-181995",
+  "https://www.shiksha.com/college/knowledge-institute-of-physiotherapy-anand-197305",
+  "https://www.shiksha.com/college/swamy-vivekananda-paramedical-sciences-tumkur-199345",
+  "https://www.shiksha.com/college/sambrama-college-of-pharmacy-mandya-207881",
+  "https://www.shiksha.com/college/shetty-group-of-institution-gulbarga-207909",
+  "https://www.shiksha.com/college/sri-sangameshwar-college-of-pharmacy-bidar-207953",
+  "https://www.shiksha.com/college/shanti-college-of-pharmacy-datia-208053",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =3541
+    c_count =3881
 
     try:
         for base_url in BASE_URL:
