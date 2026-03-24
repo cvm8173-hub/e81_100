@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sanjeevan-medical-foundation-ent-post-graduate-training-institute-maharashtra-other-69897",
-  "https://www.shiksha.com/college/r-b-s-institute-of-education-madhya-pradesh-other-74673",
-  "https://www.shiksha.com/college/shanti-tara-college-sangrur-75847",
-  "https://www.shiksha.com/college/sushrut-ayurved-nursing-training-centre-rajasthan-other-87083",
-  "https://www.shiksha.com/college/krushna-sahyogi-tantra-shikshan-sanstha-s-chatrapati-shivaji-college-of-pharmacy-maharashtra-other-88821",
-  "https://www.shiksha.com/college/sbs-college-of-pharmacy-barnala-88999",
-  "https://www.shiksha.com/college/vaijapur-matoshree-institute-of-pharmacy-aurangabad-89039",
-  "https://www.shiksha.com/college/shri-chhatrapati-shahu-maharaj-shikshan-sansthas-institute-of-pharmacy-yavatmal-89221",
-  "https://www.shiksha.com/college/jhunhjunwala-pharmacy-college-faizabad-181615",
-  "https://www.shiksha.com/college/baba-baijnath-college-of-pharmacy-azamgarh-181659",
-  "https://www.shiksha.com/college/swaminath-mahavidyalaya-d-pharm-uttar-pradesh-other-181675",
-  "https://www.shiksha.com/college/dr-ak-pandey-college-of-pharmacy-uttar-pradesh-other-181681",
-  "https://www.shiksha.com/college/atal-pharmacy-college-firozabad-181767",
-  "https://www.shiksha.com/college/surya-pal-institute-of-pharmacy-pratapgarh-181995",
-  "https://www.shiksha.com/college/knowledge-institute-of-physiotherapy-anand-197305",
-  "https://www.shiksha.com/college/swamy-vivekananda-paramedical-sciences-tumkur-199345",
-  "https://www.shiksha.com/college/sambrama-college-of-pharmacy-mandya-207881",
-  "https://www.shiksha.com/college/shetty-group-of-institution-gulbarga-207909",
-  "https://www.shiksha.com/college/sri-sangameshwar-college-of-pharmacy-bidar-207953",
-  "https://www.shiksha.com/college/shanti-college-of-pharmacy-datia-208053",
+ "https://www.shiksha.com/college/santbula-chhotu-yaduvanshi-mahavidyalaya-uttar-pradesh-other-237126",
+  "https://www.shiksha.com/college/loyal-institute-of-pharmacy-west-bengal-other-237300",
+  "https://www.shiksha.com/college/mohandai-oswal-hospital-ludhiana-240524",
+  "https://www.shiksha.com/college/pace-hospitals-telangana-other-240538",
+  "https://www.shiksha.com/college/mvr-cancer-centre-and-research-institute-kozhikode-240842",
+  "https://www.shiksha.com/college/universal-skilltech-university-powered-by-emversity-palghar-246038",
+  "https://www.shiksha.com/college/indo-soviet-pharmacy-college-moga-59229",
+  "https://www.shiksha.com/college/ayush-college-of-pharmacy-marwahi-bilaspur-88659",
+  "https://www.shiksha.com/college/lord-shiva-college-of-pharmacy-bathinda-148101",
+  "https://www.shiksha.com/college/jain-institute-of-pharmacy-ferozpur-148113",
+  "https://www.shiksha.com/college/shri-ks-college-of-pharmacy-uttar-pradesh-other-148627",
+  "https://www.shiksha.com/college/pandit-dev-narayan-shukla-college-of-pharmacy-uttar-pradesh-other-149095",
+  "https://www.shiksha.com/college/ghubaya-college-of-pharmacy-jalandhar-154863",
+  "https://www.shiksha.com/college/dayanand-college-of-pharmacy-meerut-181149",
+  "https://www.shiksha.com/college/g-b-college-of-pharmacy-uttar-pradesh-other-181211",
+  "https://www.shiksha.com/college/mata-dulari-devi-pharmacy-college-uttar-pradesh-other-181295",
+  "https://www.shiksha.com/college/neelam-college-of-pharmacy-uttar-pradesh-other-181323",
+  "https://www.shiksha.com/college/r-k-college-of-pharmacy-allahabad-181375",
+  "https://www.shiksha.com/college/saraswati-institute-of-pharmacy-ayodhya-faizabad-181619",
+  "https://www.shiksha.com/college/sss-college-of-pharmacy-azamgarh-181647",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =3881
+    c_count =4241
 
     try:
         for base_url in BASE_URL:
