@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/kukreja-institute-of-pharmaceutical-sciences-dehradun-151167",
-  "https://www.shiksha.com/college/indraprastha-institute-of-pharmacy-hapur-181827",
-  "https://www.shiksha.com/college/shridevi-college-of-physiotherapy-tumkur-186251",
-  "https://www.shiksha.com/college/al-salama-eye-hospital-malappuram-194727",
-  "https://www.shiksha.com/college/mouda-college-of-pharmacy-nagpur-198909",
-  "https://www.shiksha.com/college/vivekanand-institute-of-pharmacy-chapra-231682",
-  "https://www.shiksha.com/college/creative-educational-society-s-college-of-pharmacy-kurnool-60537",
-  "https://www.shiksha.com/college/vasavi-institute-of-pharmaceutical-sciences-andhra-pradesh-other-61085",
-  "https://www.shiksha.com/college/christian-eminent-college-indore-71229",
-  "https://www.shiksha.com/college/veerayatan-institute-of-pharmacy-bhuj-87827",
-  "https://www.shiksha.com/college/sorabh-college-of-pharmacy-karauli-88619",
-  "https://www.shiksha.com/college/baba-isher-singh-college-of-pharmacy-moga-88887",
-  "https://www.shiksha.com/college/nibha-institute-of-pharmaceutical-sciences-nalanda-146419",
-  "https://www.shiksha.com/college/khaja-banda-nawaz-rural-institute-of-medical-sciences-karnataka-other-185763",
-  "https://www.shiksha.com/college/sri-channe-gowda-college-of-nursing-kolar-202021",
-  "https://www.shiksha.com/college/baby-memorial-hospital-calicut-215773",
-  "https://www.shiksha.com/college/govt-unani-medical-college-and-hospital-ganderbal-229329",
-  "https://www.shiksha.com/college/vj-s-college-of-pharmacy-rajahmundry-60991",
-  "https://www.shiksha.com/college/radha-krishna-college-of-pharmacy-allahabad-65805",
-  "https://www.shiksha.com/college/esi-pgimsr-medical-college-and-hospital-andheri-east-andheri-east-mumbai-67533",
+  "https://www.shiksha.com/college/mahatma-gandhi-vidyamandir-s-institute-of-industrial-and-pharmaceutical-technology-nashik-89155",
+  "https://www.shiksha.com/college/punjab-college-of-pharmacy-bathinda-99879",
+  "https://www.shiksha.com/college/virinchi-hospitals-hyderabad-105977",
+  "https://www.shiksha.com/college/sanskar-city-college-of-pharmacy-rajnandgaon-145889",
+  "https://www.shiksha.com/college/school-of-international-studies-mohali-145893",
+  "https://www.shiksha.com/college/harvard-college-of-pharmacy-east-godavari-146239",
+  "https://www.shiksha.com/college/shree-ram-institute-of-technical-education-panchkula-146703",
+  "https://www.shiksha.com/college/varshney-college-of-pharmacy-hathras-148679",
+  "https://www.shiksha.com/college/kadam-college-of-pharmacy-aurangabad-198037",
+  "https://www.shiksha.com/college/swarnrekha-group-of-institutions-ranchi-207647",
+  "https://www.shiksha.com/college/triveni-college-of-pharmacy-ranchi-207653",
+  "https://www.shiksha.com/college/k-t-g-college-of-pharmacy-bangalore-207789",
+  "https://www.shiksha.com/college/diana-college-of-pharmacy-bangalore-207821",
+  "https://www.shiksha.com/college/sree-vidhyadhiraja-pharmacy-college-nemom-thiruvananthapuram-208039",
+  "https://www.shiksha.com/college/aurosri-institute-of-pharmaceutical-education-and-research-cuttack-208109",
+  "https://www.shiksha.com/college/government-ayodhya-shivkumari-ayurved-college-hospital-patna-213897",
+  "https://www.shiksha.com/college/dhanalakshmi-srinivasan-institute-of-medical-sciences-and-hospital-perambalur-214873",
+  "https://www.shiksha.com/college/pmit-group-of-colleges-bagbazar-kolkata-227023",
+  "https://www.shiksha.com/college/pavitra-institute-of-pharmacy-gurgaon-231474",
+  "https://www.shiksha.com/college/adsul-college-of-pharmacy-ahmednagar-236632",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2541
+    c_count = 3461
 
     try:
         for base_url in BASE_URL:
